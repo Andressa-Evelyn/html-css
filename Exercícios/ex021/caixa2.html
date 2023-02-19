@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(189, 165, 135);
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(241, 231, 214);
+            padding: 10px;
+            margin: 10px;
+        }
+       
+           
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        article {
+            background-color: rgb(180, 221, 207);
+            padding: 5px;
+            margin: 20px;
+            border-radius: 20px;
+        }
+        article > aside {
+            background-color:rgb(91, 177, 91);
+        }
+        nav {
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        footer > p {
+            margin: 0px;
+        }
+       
+        div {
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <h1>Meu site</h1>
+            <nav><a href="#">Link</a></nav>
+    </header>
+    <main>
+            <section id="noticia"> 
+                <article>
+                    <h2>Noticia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur itaque delectus exercitationem harum, quasi eaque recusandae ex laborum sint eos minus molestias natus, mollitia perspiciatis laudantium corporis ducimus voluptate ipsa nesciunt. Molestiae, reprehenderit eos esse rem voluptatum, magni soluta aliquid ullam eligendi perferendis, eaque repudiandae blanditiis? Laboriosam porro est inventore.</p>
+                    <aside>
+                        <p>Artigo escrito por Zuzubalândia</p>
+                    </aside>
+                </article>
+
+            </section>
+    </main>
+    <footer>
+            <p>Desenvolvido pelo Curso em Video </p>
+           
+        </footer>
+        <div id="Bola"></div>
+</body>
+</html>
