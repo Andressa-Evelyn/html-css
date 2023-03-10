@@ -1,0 +1,2 @@
+var pessoa = {nome: "Andressa", idade: 20, sexo: "feminino"}
+pessoa.sexo
