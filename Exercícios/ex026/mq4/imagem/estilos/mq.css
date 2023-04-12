@@ -32,16 +32,6 @@ main::after {
 }
 
 
-@media screen and (min-width:600px) and (max-width:768px) {
-  body{ background-image: url('../back-tablet.jpg'); }
-    
-img#phone { display: block;}
-img#tablet { display: none;}
-img#print { display: none;}
-img#pc { display: none;}
-img#tv { display: none;}
-}
-
 @media screen and (min-width:769px) and (max-width:992px) {
     body {
         background-image: url('../back-tablet.jpg');
